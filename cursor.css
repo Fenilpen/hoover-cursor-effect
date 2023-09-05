@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursor{
+    height: 20px;
+    width: 20px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    transition: all linear 0.2s ;
+    mix-blend-mode: difference;
+}
+
+h1{
+    color: beige;
+    text-transform: uppercase;   
+    font-family: cursive;
+    font-size: 9vw;
+    font-weight: 1000;
+    background-image: url(https://media.istockphoto.com/id/1185382671/vector/abstract-blurred-colorful-background.jpg?s=612x612&w=0&k=20&c=3YwJa7lCw-cQ-hviINULUokL9lYU4RuGjMP_E_0N8E4=);
+    background-position:center ;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
